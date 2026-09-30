@@ -1,1 +1,54 @@
-# Basic exceptionsbuild/*.user*.suo*.sdf*.opensdf*.sln*.vcxproj**.vc.db*.VC.db# Specific to CMakeCMakeCache.txtCMakeFiles/CMakeScripts/Makefilecmake_install.cmakeinstall_manifest.txtcompile_commands.json*.cmakecmake-tools.vsixtoolchain.cmake# Code coverage and profiling*.gcn*.gcda*.gcov*.profraw*.profdatacoverage.infocoverage.txtcoverage_report/lcov.info# IDE & editors.vscode/.idea/*.code-workspace*.swp*~*.orig# System files.DS_StoreThumbs.db# Logs & temporary files*.log*.tmp*.temp# Artefacts*.o*.a*.so*.dylib*.dll*.exebuild/
+# Сборки
+build/
+out/
+
+# Бинарники
+src/main
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+
+# Visual Studio
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.sln
+*.vcxproj
+*.vc.db
+
+# IDE
+.idea/
+*.code-workspace
+*.swp
+*~
+*.orig
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Профилирование и покрытие
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+coverage.txt
+coverage_report/
+lcov.info
